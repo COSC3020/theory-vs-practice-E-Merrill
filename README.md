@@ -13,7 +13,7 @@
     Taking into account the asymptotic complexity of a search within a binary tree,
     I would expect the timing to theoretically be slightly higher than around 13 seconds.
     This is because the asymptotic complexity of the search function within a binary search tree
-    is $'log_2 n'$
+    is $log_2 n$
 
 - You measure the time with 10,000 elements and it takes 100 seconds! List 3
   reasons why this could be the case, given that reasoning with the asymptotic
