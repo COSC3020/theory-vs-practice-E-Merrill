@@ -22,8 +22,7 @@
   I would expect the timing to theoretically be slightly higher than around 13 seconds.
   This is because the asymptotic complexity of the search function within a binary search
   tree, on average, is $log_2 n$, which, with an input size of 10,000, comes out to
-  roughly be 13.3. The actual timing could be faster or slower depending on other factors.\
-
+  roughly be 13.3. The actual timing could be faster or slower depending on other factors.
   
 - You measure the time with 10,000 elements and it takes 100 seconds! List 3
   reasons why this could be the case, given that reasoning with the asymptotic
