@@ -18,11 +18,18 @@
 
 ### Answer
 
-  Taking into account the asymptotic complexity of a search within a binary tree,
-  I would expect the timing to theoretically be slightly higher than around 13 seconds.
-  This is because the asymptotic complexity of the search function within a binary search
-  tree, on average, is $log_2 n$, which, with an input size of 10,000, comes out to
-  roughly be 13.3. The actual timing could be faster or slower depending on other factors.
+  The theoretical runtime of the same search tree with 10,000 elements comes out to be roughly 6.667 seconds. 
+  My process of computing this result is detailed below:
+  
+  Asymptotic complexity of Binary Search Tree -- log_2(n)
+  Trial with 1,000 elements -- 5 seconds
+  $log_2(1,000)\neq 5.$ There must be some scalar changing what the end result would be, thus;
+  $xlog_2(1,000) = 5$
+  Solving for x nets:
+  $x\thickapprox 0.5$
+  Using this value for x with 10,000 elements in the tree:
+  $xlog_2(10,000)\thickapprox 6.66667$
+  
   
 - You measure the time with 10,000 elements and it takes 100 seconds! List 3
   reasons why this could be the case, given that reasoning with the asymptotic
