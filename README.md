@@ -23,7 +23,8 @@
   
   Asymptotic complexity of Binary Search Tree -- log_2(n)  
   Trial with 1,000 elements -- 5 seconds  
-  $log_2(1,000)\neq 5.$ There must be some scalar changing what the end result would be, thus;  
+  $log_2(1,000)\neq 5.$  
+  There must be some scalar changing what the end result would be, thus;  
   $xlog_2(1,000) = 5$  
   Solving for x nets:  
   $x\thickapprox 0.5$  
