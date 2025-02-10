@@ -27,7 +27,7 @@
   There must be some scalar changing what the end result would be, thus;  
   $xlog_2(1,000) = 5$  
   Solving for x nets:  
-  $x\thickapprox 0.5$  
+  $x\approx 0.5$  
   Using this value for x with 10,000 elements in the tree:  
   $xlog_2(10,000)\thickapprox 6.66667$  
   
@@ -41,7 +41,7 @@
   In the case of a binary search tree, what could have potentially happened is that the tree was
   very unbalanced when all of the inserts were completed. This lack of balancing of the tree would noticably slow down
   the actual runtime. In this particular case, it is likely that there are parts of the tree that behave closer to linked lists
-  than trees.
+  than trees.  
   Another cause for this larger than expected runtime would be
 
 
