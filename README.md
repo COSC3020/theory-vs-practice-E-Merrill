@@ -5,18 +5,16 @@
 
 ### Answer
 
+
   One reason is that there can be other factors that can affect runtime, such as  
   other background processes on one's computer (open internet tabs, background downloads/uploads, etc.)  
-  A second reason could be hardware limitations. If a program is very RAM intensive, but  
-  your device does not have enough RAM for it, the program may start to use  
-  your harddrive as memory as a way to compensate, drastically slowing down  
-  the runtime.  
+  
+  A second reason could be hardware limitations. If a program is very RAM intensive, but your device does not have enough RAM for it, the program may start to use  
+  your harddrive as memory as a way to compensate, drastically slowing down the runtime.  
+  
   A third reason can be that constants and lower order terms are ignored.  
-  Ignoring the constants can have an effect because $log(n)$ is  
-  MUCH different from $1,000 * log(n)$, or something similar in nature.  
-  Ignoring the lower order terms will have a noticable effect on lower  
-  input sizes, and can make the program behave 'abnormally' when only  
-  paying attention to the highest order terms.  
+  Ignoring the constants can have an effect because $log(n)$ is MUCH different from $1,000 * log(n)$, or something similar in nature.   
+  Ignoring the lower order terms will have a noticable effect on lower input sizes, and can make the program behave 'abnormally' when only paying attention to the highest order terms.  
 
   
 - Suppose finding a particular element in a binary search tree with 1,000
@@ -48,9 +46,11 @@
 
   The noticeably larger runtime could be a result of simply running the program on a different computer that is  
   significantly slower than the intial computer.  
+  
   Another cause for this larger than expected runtime could be a cooling system that has fans with a max speed  
   of 30 RPM, for some strange reason. The computer, having to do many calculations to search the tree, will  
   suddenly find itself a bit toasty thanks to its less-than-satisfactory fan speed.  
+  
   A third reason this could have taken so much longer could be other background processes going on, like listening  
   to a 7 hour long story on YouTube, or playing a game with Ray Tracing and graphics put to the max, or both!  
 
