@@ -5,9 +5,13 @@
 
 ### Answer
 
-  One reason is that there can be other factors that can affect runtime, such as 
-  other background processes on one's computer (open internet tabs, background downloads/uploads, etc.)
-    A second reason is that 
+  One reason is that there can be other factors that can affect runtime, such as  
+  other background processes on one's computer (open internet tabs, background downloads/uploads, etc.)  
+  A second reason could be hardware limitations. If a program is very RAM intensive, but  
+  your device does not have enough RAM for it, the program may start to use  
+  your harddrive as memory as a way to compensate, drastically slowing down  
+  the runtime.  
+  
 
 
   
@@ -38,10 +42,8 @@
 
 ### Answer
 
-  In the case of a binary search tree, what could have potentially happened is that the tree was
-  very unbalanced when all of the inserts were completed. This lack of balancing of the tree would noticably slow down
-  the actual runtime. In this particular case, it is likely that there are parts of the tree that behave closer to linked lists
-  than trees.  
+  The noticeably larger runtime could be a result of simply running the program on a different computer that is  
+  significantly slower than the intial computer.  
   Another cause for this larger than expected runtime would be
 
 
